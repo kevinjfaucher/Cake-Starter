@@ -15,20 +15,16 @@ const LayerForm = ({ onSave, onCancel }) => {
     <div className="layer-form">
       <label>
         Color:
-        <select name="color" value={layer.color} onChange={handleChange}>
-          <option value="pink">Pink</option>
-          <option value="blue">Blue</option>
-          <option value="green">Green</option>
-          <option value="yellow">Yellow</option>
-        </select>
+        <input type="color" name="color" value="#ff0000" onChange={handleChange}></input>
       </label>
       <label>
         Width:
         <input
           type="range"
           name="width"
-          min="1"
+          min="0.1"
           max="10"
+          step="0.1"
           value={layer.width}
           onChange={handleChange}
         />
@@ -38,9 +34,9 @@ const LayerForm = ({ onSave, onCancel }) => {
         <input
           type="range"
           name="height"
-          min="0.5"
+          min="0.1"
           max="10"
-          step="0.5"
+          step="0.1"
           value={layer.height}
           onChange={handleChange}
         />
