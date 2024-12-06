@@ -1,0 +1,9 @@
+.cake {
+        background-color: rgb(192, 249, 249);
+        border: 2px solid teal;
+        font-family: sans-serif;
+        width: 80%;
+        border-radius: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+}
