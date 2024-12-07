@@ -22,4 +22,4 @@ const LayerAdd = ({ addLayer }) => {
   );
 };
 
-export default LayerAdd;
+export default LayerAdd;                                  
