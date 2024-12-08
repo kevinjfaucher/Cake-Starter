@@ -2,8 +2,14 @@
     flex-grow: 1;
     width: 90%;
     background-color: aliceblue;
+    border: 2px solid teal;
+    font-family: sans-serif;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
     overflow: auto;
     max-height: 33%;
+
 }
 
 
