@@ -2,8 +2,7 @@
 @media only screen and (max-width: 768px) {
 
 .layer-form {
-    width: 100vw;
-    height: 25vh;
+    width: 80vw;
     border: 1px solid black;
 }
 
@@ -16,25 +15,6 @@
 #form-button {
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /* BELOW IS THE CSS FOR DESKTOP VIEW */

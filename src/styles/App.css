@@ -1,4 +1,5 @@
 /* BELOW IS THE CSS FOR MOBILE VIEW */
+@media only screen and (max-width: 768px) {
 .app {
   font-family: sans-serif;
   height: 100%;
@@ -9,15 +10,20 @@
   margin: 0px;
   background-color: black;
 }
+}
 
-/* Previous code for Desktop view: needs to go into a media query */
-/* .app {
+/* BELOW IS THE CSS FOR DESKTOP VIEW */
+@media only screen and (min-width: 769px) {
+.app {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
   margin: 20px;
-} */
+}
+
+
+}
 
 
 
@@ -37,4 +43,4 @@
 
 
 
-/* BELOW IS THE CSS FOR DESKTOP VIEW */
+

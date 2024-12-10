@@ -43,6 +43,7 @@ const LayerForm = ({ onSave, onCancel }) => {
       </label>
       <button id="form-button" onClick={() => onSave(layer)}>Save</button>
       <button id="form-button" onClick={onCancel}>Cancel</button>
+      <p>Note: Layers start from the bottom up!</p>
     </div>
   );
 };
