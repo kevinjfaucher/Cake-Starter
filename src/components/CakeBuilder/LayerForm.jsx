@@ -13,11 +13,11 @@ const LayerForm = ({ onSave, onCancel }) => {
 
   return (
     <div className="layer-form">
-      <label>
+      <label className="form-labels">
         Color:
-        <input type="color" name="color" value="#ff0000" onChange={handleChange}></input>
+        <input type="color" name="color" defaultValue="#e8a5e1" onChange={handleChange}></input>
       </label>
-      <label>
+      <label className="form-labels">
         Width:
         <input
           type="range"
@@ -29,7 +29,7 @@ const LayerForm = ({ onSave, onCancel }) => {
           onChange={handleChange}
         />
       </label>
-      <label>
+      <label className="form-labels">
         Height:
         <input
           type="range"
@@ -41,8 +41,8 @@ const LayerForm = ({ onSave, onCancel }) => {
           onChange={handleChange}
         />
       </label>
-      <button onClick={() => onSave(layer)}>Save</button>
-      <button onClick={onCancel}>Cancel</button>
+      <button id="form-button" onClick={() => onSave(layer)}>Save</button>
+      <button id="form-button" onClick={onCancel}>Cancel</button>
     </div>
   );
 };
