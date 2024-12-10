@@ -1,3 +1,6 @@
+/* BELOW IS THE CSS FOR MOBILE VIEW */
+@media only screen and (max-width: 768px) {
+
 .layer-builder {
     display: flex;
     flex-direction: column;
@@ -36,5 +39,5 @@
     background-color: #c0392b;
     border-color: #bbb;
   }
-
+}
   
