@@ -3,13 +3,11 @@
 
 .layer-form {
     width: 80vw;
-    border: 1px solid black;
 }
 
 .form-labels {
     font-weight: bold;
     font-family: arial;
-    border: 1px solid black;
 }
 
 #form-button {
