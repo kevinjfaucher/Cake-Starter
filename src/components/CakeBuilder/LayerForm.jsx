@@ -18,25 +18,25 @@ const LayerForm = ({ onSave, onCancel }) => {
         <input type="color" name="color" defaultValue="#e8a5e1" onChange={handleChange}></input>
       </label>
       <label className="form-labels">
-        Width:
+        Width: {layer.width}
         <input
           type="range"
           name="width"
-          min="0.1"
+          min="1"
           max="10"
-          step="0.1"
+          step="1"
           value={layer.width}
           onChange={handleChange}
         />
       </label>
       <label className="form-labels">
-        Height:
+        Height: {layer.height}
         <input
           type="range"
           name="height"
-          min="0.1"
+          min="1"
           max="10"
-          step="0.1"
+          step="1"
           value={layer.height}
           onChange={handleChange}
         />
