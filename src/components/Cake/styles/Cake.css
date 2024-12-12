@@ -19,5 +19,9 @@
   );
 }
 
+.logo {
+    display: flex;
+}
+
 
 
