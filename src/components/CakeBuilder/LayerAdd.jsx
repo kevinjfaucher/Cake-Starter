@@ -18,6 +18,7 @@ const LayerAdd = ({ addLayer }) => {
       ) : (
         <button onClick={() => setShowForm(true)}>Add A Layer</button>
       )}
+
     </div>
   );
 };
