@@ -13,40 +13,37 @@ const LayerForm = ({ onSave, onCancel }) => {
 
   return (
     <div className="layer-form">
-      <label>
+      <label className="form-labels">
         Color:
-        <select name="color" value={layer.color} onChange={handleChange}>
-          <option value="pink">Pink</option>
-          <option value="blue">Blue</option>
-          <option value="green">Green</option>
-          <option value="yellow">Yellow</option>
-        </select>
+        <input type="color" name="color" defaultValue="#e8a5e1" onChange={handleChange}></input>
       </label>
-      <label>
+      <label className="form-labels">
         Width:
         <input
           type="range"
           name="width"
-          min="1"
+          min="0.1"
           max="10"
+          step="0.1"
           value={layer.width}
           onChange={handleChange}
         />
       </label>
-      <label>
+      <label className="form-labels">
         Height:
         <input
           type="range"
           name="height"
-          min="0.5"
+          min="0.1"
           max="10"
-          step="0.5"
+          step="0.1"
           value={layer.height}
           onChange={handleChange}
         />
       </label>
-      <button onClick={() => onSave(layer)}>Save</button>
-      <button onClick={onCancel}>Cancel</button>
+      <button id="form-button" onClick={() => onSave(layer)}>Save</button>
+      <button id="form-button" onClick={onCancel}>Cancel</button>
+      <p>Note: Layers start from the bottom up!</p>
     </div>
   );
 };

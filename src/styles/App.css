@@ -1,6 +1,46 @@
+/* BELOW IS THE CSS FOR MOBILE VIEW */
+@media only screen and (max-width: 768px) {
 .app {
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0px;
+  background-color: black;
+}
+}
+
+/* BELOW IS THE CSS FOR DESKTOP VIEW */
+@media only screen and (min-width: 769px) {
+.app {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
   margin: 20px;
 }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

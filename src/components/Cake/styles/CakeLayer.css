@@ -1,0 +1,33 @@
+.cake-layer {
+    border-top: 1px solid rgba(100, 100, 100, .3);
+    border-bottom: 2px solid rgba(100, 100, 100, .3);
+    border-radius: 6%;
+
+    border-radius: 80% / 15px;
+    margin-bottom: -11px;
+    position: relative;
+    border-bottom: 2px solid rgba(31, 28, 28, 0.3);
+    box-shadow: 13px -5px 13px rgb(71, 63, 63);
+
+}
+
+.top {
+    border: 1px solid rgba(17, 14, 14, 0.3);
+    border-radius: 50%;
+    position: absolute;
+    border-top: none;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
