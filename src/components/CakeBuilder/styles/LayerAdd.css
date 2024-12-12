@@ -1,22 +1,50 @@
 .layer-add {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1rem 0;
-  }
-  
-  .layer-add button {
-    background-color: #2200DD;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .layer-add button:hover {
-    background-color: #A600DD;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.layer-add button {
+  font-weight: bold;
+  background-color: #AD4870;
+  color: #FBEAE7;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.layer-add button:hover {
+  font-weight: bolder;
+  background-color: #D5933B;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(166, 0, 221, 0.4);
+}
+
+.layer-add button:active {
+  transform: translateY(0px) scale(0.95);
+  box-shadow: 0 2px 5px rgba(166, 0, 221, 0.4);
+}
+
+.layer-add button::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.6s ease-out, height 0.6s ease-out;
+}
+
+.layer-add button:active::after {
+  width: 200%;
+  height: 200%;
+}
+
 
 
 
