@@ -4,7 +4,7 @@
     border-radius: 6%;
 
     border-radius: 80% / 13px;
-    margin-bottom: -9.2px;
+    margin-bottom: -10px;
     position: relative;
     border-bottom: 2px solid rgba(31, 28, 28, 0.3);
 
@@ -12,7 +12,7 @@
 }
 
 .top {
-    border: 1px solid rgba(80, 79, 79, 0.3);
+    border: 1px solid rgba(17, 14, 14, 0.3);
     border-radius: 50%;
     position: absolute;
     border-top: none;

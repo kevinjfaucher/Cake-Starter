@@ -17,7 +17,7 @@ const CakeLayer = ({ layer }) => {
     <div className="top"
     style={{
       backgroundColor: color,
-      width: `${width * 39.8}px`,
+      width: `${width * 39.5}px`,
       height: `${height * 4}px`,
 
     }}></div>
