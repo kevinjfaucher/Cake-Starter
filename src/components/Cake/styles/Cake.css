@@ -19,8 +19,3 @@
   #552619 60px        /* Stop at 60px */
 );
 }
-
-.logo {
-  position: absolute;
-  z-index: 1;
-}
