@@ -6,16 +6,16 @@
     background-color: gray;
     flex-grow: 3;
     width: 90%;
+    height: 90%;
+    margin-right: 5px;
     background: repeating-linear-gradient(
     45deg,                /* Diagonal stripes */
-    #ff69b480,              /* Hot pink */
-    #ff69b4 20px,         /* Stop at 20px */
-    #ffd700 20px,         /* Gold starts */
-    #ffd700 40px,         /* Stop at 40px */
-    #87cefa80 40px,         /* Light blue starts */
-    #87cefa 60px,         /* Stop at 60px */
-    #32cd3280 60px,         /* Lime green starts */
-    #32cd32 80px          /* Stop at 80px */
+    #B2456E,              /* Hot pink */
+    #B2456E 20px,         /* Stop at 20px */
+    #FBEAE7 20px,         /* Gold starts */
+    #FBEAE7 40px,         /* Stop at 40px */
+    #552619 40px,         /* Light blue starts */
+    #552619 60px        /* Stop at 60px */
   );
 }
 
