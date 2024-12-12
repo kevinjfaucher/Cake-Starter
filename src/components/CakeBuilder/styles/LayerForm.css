@@ -1,0 +1,16 @@
+/* BELOW IS THE CSS FOR MOBILE VIEW */
+@media only screen and (max-width: 768px) {
+
+.layer-form {
+    width: 80vw;
+}
+
+.form-labels {
+    font-weight: bold;
+    font-family: arial;
+}
+
+#form-button {
+    font-weight: bold;
+}
+}
