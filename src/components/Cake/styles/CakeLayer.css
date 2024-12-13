@@ -8,6 +8,7 @@
     position: relative;
     border-bottom: 2px solid rgba(31, 28, 28, 0.3);
     z-index: 4;
+    box-shadow: 13px -5px 13px rgb(71, 63, 63);
 }
 
 .top {

@@ -1,21 +1,27 @@
 .cake {
-  display: flex;
-  position: relative;
-  flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
-  background-color: gray;
-  flex-grow: 3;
-  width: 90%;
-  height: 90%;
-  margin-right: 5px;
-  background: repeating-linear-gradient(
-  45deg,                /* Diagonal stripes */
-  #B2456E,              /* Hot pink */
-  #B2456E 20px,         /* Stop at 20px */
-  #FBEAE7 20px,         /* Gold starts */
-  #FBEAE7 40px,         /* Stop at 40px */
-  #552619 40px,         /* Light blue starts */
-  #552619 60px        /* Stop at 60px */
-);
-}
+    display: flex;
+    position: relative;
+    overflow: auto;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    flex-grow: 3;
+    width: 90%;
+    height: 90%;
+    margin-right: 5px;
+    background: repeating-linear-gradient(
+    45deg,                /* Diagonal stripes */
+    #B2456E,              /* Hot pink */
+    #B2456E 20px,         /* Stop at 20px */
+    #FBEAE7 20px,         /* Gold starts */
+    #FBEAE7 40px,         /* Stop at 40px */
+    #552619 40px,         /* Light blue starts */
+    #552619 60px        /* Stop at 60px */
+  );
+  }
+
+  .logo {
+    position: absolute;
+    z-index: 1;
+  }
